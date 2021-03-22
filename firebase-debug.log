@@ -1,0 +1,47 @@
+[debug] [2021-02-22T09:06:01.467Z] ----------------------------------------------------------------------
+[debug] [2021-02-22T09:06:01.470Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-02-22T09:06:01.471Z] CLI Version:   9.4.0
+[debug] [2021-02-22T09:06:01.471Z] Platform:      win32
+[debug] [2021-02-22T09:06:01.471Z] Node Version:  v12.18.3
+[debug] [2021-02-22T09:06:01.472Z] Time:          Mon Feb 22 2021 14:36:01 GMT+0530 (India Standard Time)
+[debug] [2021-02-22T09:06:01.473Z] ----------------------------------------------------------------------
+[debug] [2021-02-22T09:06:01.473Z] 
+[debug] [2021-02-22T09:06:01.482Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-22T09:06:01.483Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ADMIN\Desktop\i write code\React js\react-msg-app
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using react-msg-app. 
+[debug] [2021-02-22T09:06:08.033Z] > refreshing access token with scopes: []
+[debug] [2021-02-22T09:06:08.034Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-02-22T09:06:29.338Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2021-02-22T09:06:29.937Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at invalidCredentialError (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:26:12)
+    at refreshTokens (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:297:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: Failed to get Firebase project react-msg-app. Please make sure the project exists and your account has permission to access it.
